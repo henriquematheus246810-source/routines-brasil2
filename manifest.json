@@ -1,0 +1,55 @@
+{
+  "name": "TaskPro Ultimate",
+  "short_name": "TaskPro",
+  "description": "Gerencie suas tarefas com elegância. App premium, rápido e sem imagens externas.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0f172a",
+  "theme_color": "#6366f1",
+  "categories": ["productivity", "utilities"],
+  "dir": "ltr",
+  "lang": "pt-BR",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Crect width='512' height='512' rx='100' fill='%236366f1'/%3E%3Ctext x='256' y='360' font-size='280' text-anchor='middle' fill='white' font-family='Arial' font-weight='bold'%3E📋%3C/text%3E%3C/svg%3E",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Nova Tarefa",
+      "short_name": "Adicionar",
+      "description": "Crie uma tarefa rapidamente",
+      "url": "/?action=add",
+      "icons": [
+        {
+          "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 96'%3E%3Ccircle cx='48' cy='48' r='48' fill='%2310b981'/%3E%3Ctext x='48' y='68' font-size='50' text-anchor='middle' fill='white' font-family='Arial'%3E+%3C/text%3E%3C/svg%3E",
+          "sizes": "96x96",
+          "type": "image/svg+xml"
+        }
+      ]
+    },
+    {
+      "name": "Ver Pendentes",
+      "short_name": "Pendentes",
+      "description": "Visualize suas tarefas pendentes",
+      "url": "/?tab=pendente",
+      "icons": [
+        {
+          "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 96'%3E%3Ccircle cx='48' cy='48' r='48' fill='%23f59e0b'/%3E%3Ctext x='48' y='68' font-size='50' text-anchor='middle' fill='white' font-family='Arial'%3E📌%3C/text%3E%3C/svg%3E",
+          "sizes": "96x96",
+          "type": "image/svg+xml"
+        }
+      ]
+    }
+  ],
+  "display_override": ["standalone"],
+  "launch_handler": {
+    "client_mode": "focus-existing"
+  }
+}
